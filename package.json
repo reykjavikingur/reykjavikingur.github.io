@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/reykjavikingur/reykjavikingur.github.io/issues"
   },
-  "homepage": "https://github.com/reykjavikingur/reykjavikingur.github.io#readme"
+  "homepage": "https://github.com/reykjavikingur/reykjavikingur.github.io#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
 }
