@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "gulp build",
+    "deploy": "cd dist && git add --all && git commit -m \"`date`\" && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
